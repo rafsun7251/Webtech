@@ -53,12 +53,6 @@ tbody td {
     padding: 9px 12px;
     border: 1px solid #aaa;
 }
-
-tbody tr:nth-child(even) td {
-    background-color: #f9f9f9;
-}
-
-
 .contact {
     background-color: #c8eac8;
     border-radius: 16px;
@@ -118,6 +112,3 @@ tbody tr:nth-child(even) td {
     cursor: pointer;
 }
 
-.form button:hover {
-    background-color: #ddd;
-}
