@@ -1,0 +1,62 @@
+body{
+    font-family: Arial;
+    margin: 30px;
+}
+
+.box{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    width: 800px;
+    margin: 30px auto;
+}
+
+.heading{
+    background: rgb(52, 90, 177);
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+table{
+    width: 100%;
+    margin-top: 40px;
+}
+
+td{
+    padding: 20px;
+    width: 50%;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+.button{
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(54, 54, 161);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: rgba(60, 60, 186, 0.852);
+}
+.button-row{
+    text-align: center;
+}
