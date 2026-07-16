@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Student Registration</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>  
+    </head>
+    <body>
+        <table class="container">
+            <tr>
+                <td>
+                    <h2>Student Registration Form</h2>
+                    <form id="studentForm">
+                        <table>
+                            <tr>
+                                <td>
+                                    <label>First Name<span>*</span></label>
+                                </td>
+                                <td><input type="text" id="fname"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Last Name<span>*</span></label></td>
+                                <td><input type="text" id="lname"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Student ID<span>*</span></label></td>
+                                <td><input type="text" id="id"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Email<span>*</span></label></td>
+                                <td><input type="text" id="email"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Credit Completed<span>*</span></label></td>
+                                <td><input type="number" id="credit"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Department<span>*</span></label></td>
+                                <td><select id="dept">
+                                    <option value="">select</option>
+                                    <option>CSE</option>
+                                    <option>EEE</option>
+                                    <option>BBA</option>
+                                    <option>IPE</option>
+                                    <option>English</option>
+                                    <option>Data Science</option>
+                                </select></td>
+                        
+                            </tr>
+                            <tr>
+                                <td colspan ="2" align="center"> 
+                                    <button type="button" onclick="registrationStudent()">Submit</button>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </form>
+    <h2>Registration Student List</h2>
+    <table border="1" id="studentTable">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Student ID</th>
+            <th>Email</th>
+            <th>Credit</th>
+            <th>Department</th>
+        </tr>
+    </table> 
+    </td>
+    </tr>
+    </table>    
+        
+    </body>
+</html>
